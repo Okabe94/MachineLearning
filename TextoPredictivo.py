@@ -74,7 +74,6 @@ def sample(preds, top_n=5):
 
 def predict_completion(text):
     original_text = text
-    print (original_text)
     generated = text
     completion = ''
     while True:
